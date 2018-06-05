@@ -1,0 +1,12 @@
+header {
+  background: darkgray;
+}
+
+header section.content--1 {
+  min-height: 200px;
+}
+
+header section.content--2 {
+  
+  background: blue;
+}

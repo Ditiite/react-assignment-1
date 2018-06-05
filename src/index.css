@@ -3,3 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+section {
+  width: 960px;
+  margin: auto;
+  padding: 10px 20px;
+}
