@@ -20,7 +20,7 @@
 }
 
 .feature:hover button {
-    display: none;
+    visibility: hidden;
 }
 
 .feature-icon {
