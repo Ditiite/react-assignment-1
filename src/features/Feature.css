@@ -1,5 +1,72 @@
 
-
 .feature {
-    width: 200px;
+    padding: 10px 0px;
+    background: transparent;
+    display: grid;
+    grid-template-areas: 
+        "icon"
+        "title"
+        "text"
+        "button";
+    justify-items: center;
+    padding: 10px;
+    color: var(--text-color);
+    position: relative;
+}
+
+.feature:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.feature:hover button {
+    display: none;
+}
+
+.feature-icon {
+    fill: white;
+    grid-area: icon;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background: radial-gradient( #4e4e4e 5%, #222, #222);
+    border: 5px solid rgb(3, 3, 3);
+}
+
+.feature-title {
+    grid-area: title;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.feature-title-bolder {
+    color: #222;
+    font-weight: 700;
+}
+
+.feature-text {
+    grid-area: text;
+    text-align: center;
+    padding: 10px;
+}
+
+.feature-btn {
+    grid-area: button;
+    font-size: 0.7em;
+    padding: 10px;
+    height: 35px;
+}
+
+/* Small white triandle */
+.small-triangle-white:after {
+  content: "";
+  position: absolute;
+  bottom: -14%;
+  left: 0;
+  border-top: 40px solid transparent;
+  border-left: 0;
+  border-right: 40px solid transparent;
 }

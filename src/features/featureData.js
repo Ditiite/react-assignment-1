@@ -1,63 +1,43 @@
 
 export const featureData = [
     {
-        title: 'Superbly responsive',
-        icon: '/images/icon-smartphone.svg',
+        title1: 'Superbly',
+        title2: ' responsive',
+        icon: '/images/mobile.png',
         content: `
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
-            an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has 
-            survived not only five centuries, but also the 
-            leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of Letraset sheets 
-            containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-            Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum has been the industry's 
+            ...
         `
     },
     {
-        title: 'Squeeky clean',
-        icon: '/images/icon-smartphone.svg',
+        title1: 'Squeeky ',
+        title2: 'clean',
+        icon: '/images/computer.png',
         content: `
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
-            an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has 
-            survived not only five centuries, but also the 
-            leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of Letraset sheets 
-            containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-            Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum has been the industry's
+            ...
         `
     },
     {
-        title: 'Multi purpose',
-        icon: '/images/icon-smartphone.svg',
+        title1: 'Multi',
+        title2: ' purpose',
+        icon: '/images/laptop.png',
         content: `
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
-            an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has 
-            survived not only five centuries, but also the 
-            leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of Letraset sheets 
-            containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-            Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum has been the industry's 
+            ...
         `
     },
     {
-        title: 'Highly Flexible',
-        icon: '/images/icon-smartphone.svg',
+        title1: 'Highly ',
+        title2: 'Flexible',
+        icon: '/images/arrows.svg',
         content: `
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
-            an unknown printer took a galley of type and 
-            scrambled it to make a type specimen book. It has 
-            survived not only five centuries, but also the 
-            leap into electronic typesetting, remaining essentially
-            unchanged. It was popularised in the 1960s with the release of Letraset sheets 
-            containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-            Aldus PageMaker including versions of Lorem Ipsum.
+            Lorem Ipsum has been the industry's 
+            ...
         `
     }
 ];

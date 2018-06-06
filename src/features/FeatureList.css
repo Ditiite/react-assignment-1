@@ -1,4 +1,7 @@
+
 .features {
-    padding: 10px 0px;
-    background: transparent;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-flow: column;
 }

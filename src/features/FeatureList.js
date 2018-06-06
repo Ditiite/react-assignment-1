@@ -12,7 +12,6 @@ export class FeatureList extends Component {
 
         return (
             <section className="features">
-                <h1>features</h1>
                 { featureComponents }
             </section>
         );
