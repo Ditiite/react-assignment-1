@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,9 @@ body {
 :root {
   --button-bg: #197197;
   --text-color: rgb(128, 128, 128);
+  --text-color-darcer: #222;
   --bolder-text-light-color: rgb(216, 214, 214);
+  --blog-box-shadow: 50px -15px 43px -57px rgb(110, 110, 110);
 }
 
 /* All blue buttons in the app */
@@ -23,4 +26,15 @@ body {
   color: var(--bolder-text-light-color);
   text-transform: uppercase;
   border-radius: 5px;
+}
+
+/* Stripy line between sections */
+.bg-stripes {
+    background-repeat: repeat-x;
+    background: url('./images/str.jpg');
+    height: 10px;
+}
+
+div.bg-stripes {
+    height: 10px;
 }

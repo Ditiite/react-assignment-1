@@ -1,0 +1,50 @@
+
+.blog-container {
+    margin: 50px auto 50px;
+}
+
+.blog-container h2 {
+    text-align: center;
+    color: var(--text-color-darcer);
+    text-transform: uppercase;
+}
+
+.blog-container-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}   
+
+/* Stripy line between sections */
+.title-and-stripes .bg-stripe {
+    background-repeat: repeat-x;
+    background: url('../images/str.jpg');
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title-and-stripes h2 {
+    background: transparent;
+    grid-area: title;
+    text-align: center;
+    justify-self: center;
+}
+
+.title-and-stripes {
+    display: grid;
+    grid-template-areas: 
+        "stripes title stripes2";
+    grid-template-columns: 3fr 2fr 3fr;
+    overflow: hidden;
+    grid-gap: 20px;
+    height: 50px;
+}
+
+.stripes {
+    grid-area: stripes;
+}
+
+.stripes2 {
+    grid-area: stripes2;
+}

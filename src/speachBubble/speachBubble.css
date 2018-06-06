@@ -1,0 +1,35 @@
+.blog-text {
+    background-color: #fff;
+}
+
+.blog .small-triangle-white:after {
+  content: "";
+  position: absolute;
+  bottom: -12%;
+  left: 0;
+  border-top: 40px solid #fff;
+  border-left: 0;
+  border-right: 40px solid transparent;
+}
+
+.blog {
+    width: 100%;
+    position: relative;
+    color: var(--text-color);
+    box-shadow: var(--blog-box-shadow);
+}
+
+.blog-img {
+    width: 100%;
+    padding: 0;
+}
+
+.blog p {
+    padding: 0 20px 20px;
+}
+
+.blog h1 {
+    color: var(--text-color-darcer);
+    text-transform: capitalize;
+    padding: 20px 20px 5px;
+}
