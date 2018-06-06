@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+:root {
+  --button-bg: #197197;
+  --text-color: rgb(128, 128, 128);
+  --bolder-text-light-color: rgb(216, 214, 214);
+}
+
+/* All blue buttons in the app */
+.blue-btn {
+  width: 50%;
+  height: 50px;
+  background-color: var(--button-bg);
+  border: none;
+  color: var(--bolder-text-light-color);
+  text-transform: uppercase;
+  border-radius: 5px;
+}

@@ -1,5 +1,8 @@
+
 header {
-  background: darkgray;
+  background: rgb(34, 34, 34);
+  background: radial-gradient( #4e4e4e 5%, #222, #222);
+  color: var(--text-color);
 }
 
 header section.content--1 {
@@ -7,6 +10,100 @@ header section.content--1 {
 }
 
 header section.content--2 {
+  background: var(--button-bg);
+}
+
+/* header grid structure */
+.content--1 {
+  display: grid;
+  grid-template-areas: 
+    "img title"
+    "img text"
+    "img button";
+  grid-template-columns: 50% 50%;
+}
+
+.content--1 .to-upper-case {
+  padding-top: 20px;
+}
+
+/* Main img in header */
+.devices-header {
+  grid-area: img;
+  width: 100%;
+}
+
+
+/* Main bigger text in header */
+.to-upper-case {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.bolder {
+  font-weight: 800;
+  font-style: italic;
+  color: var(--bolder-text-light-color);
+  font-size: 1em;
+}
+
+/* Text in header */
+.header-text {
+  grid-area: text;
+}
+
+/* Blue button */
+button {
+  grid-area: button;
   
-  background: blue;
+}
+
+.header-btn {
+  box-shadow: -3px 29px 14px -21px rgb(0, 0, 0);
+}
+
+
+/* Section - 2 blues dialog field */
+.content--2 {
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-left: 50%; 
+  transform: translateX(-50%);
+  box-shadow: -12px -5px 51px rgb(0, 0, 0);
+}
+
+.content--2 .to-upper-case {
+  font-size: 1em;
+}
+
+.content--2 button {
+  margin-right: 0;
+}
+
+/* White button */
+.white-btn {
+  padding: 5px 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8em;
+  text-shadow: 1px 1px 1px rgb(87, 86, 86);
+  border-radius: 5px;
+  border: none;
+  color: var(--text-color);
+  height: 40px;
+  width: 185px;
+}
+
+/* small-triangle-blue */
+.small-triangle-blue:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-top: 40px solid var(--button-bg);
+  border-left: 0;
+  border-right: 40px solid transparent;
 }
