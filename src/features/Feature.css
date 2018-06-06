@@ -34,6 +34,10 @@
     border: 5px solid rgb(3, 3, 3);
 }
 
+.feature:hover .feature-icon {
+    background: radial-gradient( #4b6bf7 5%, rgb(3, 0, 161), rgb(3, 0, 161));
+}
+
 .feature-icon img {
     width: 30px;
     height: 30px;
@@ -73,6 +77,17 @@
   bottom: -14%;
   left: 0;
   border-top: 40px solid transparent;
+  border-left: 0;
+  border-right: 40px solid transparent;
+}
+
+/*  Small white triandle on hover */
+.feature:hover .small-triangle-white:after {
+  content: "";
+  position: absolute;
+  bottom: -14%;
+  left: 0;
+  border-top: 40px solid white;
   border-left: 0;
   border-right: 40px solid transparent;
 }
