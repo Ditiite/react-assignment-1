@@ -29,10 +29,16 @@
     padding: 10px;
     width: 50px;
     height: 50px;
-    padding: 10px;
     border-radius: 50%;
     background: radial-gradient( #4e4e4e 5%, #222, #222);
     border: 5px solid rgb(3, 3, 3);
+}
+
+.feature-icon img {
+    width: 30px;
+    height: 30px;
+    object-position: center;
+    padding: 10px;
 }
 
 .feature-title {

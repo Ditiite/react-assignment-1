@@ -23,7 +23,7 @@ export const featureData = [
     {
         title1: 'Multi',
         title2: ' purpose',
-        icon: '/images/laptop.png',
+        icon: '/images/laptop2.png',
         content: `
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's 
