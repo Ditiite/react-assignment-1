@@ -4,9 +4,10 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas:  
-      "small-articles development";
+      "small-articles development"
+      "content--2 content--2";
     margin: 100px auto 50px;
-    grid-gap: 20px;
+    grid-gap: 100px 20px;
 }
 
 
@@ -17,3 +18,11 @@
     grid-gap: 50px 20px;
 }
 
+.article-contact {
+    grid-area: content--2;
+    grid-column: 1 / -1;
+    width: 100%;
+    background: var(--button-bg);
+    padding: 10px 0;
+    box-shadow: none;
+}

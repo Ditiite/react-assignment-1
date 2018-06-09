@@ -67,20 +67,24 @@ button {
 .content--2 {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   height: 50px;
   margin-left: 50%; 
   transform: translateX(-50%);
   box-shadow: -12px -5px 51px rgb(0, 0, 0);
+  padding: 10px 20px;
 }
 
 .content--2 .to-upper-case {
   font-size: 1em;
+  left: 40px;
+  position: absolute;
 }
 
 .content--2 button {
-  margin-right: 0;
+  position: absolute;
+  right: 20px;
 }
 
 /* White button */
