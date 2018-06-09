@@ -4,6 +4,7 @@ import './App.css';
 import { Header } from './header/Header';
 import { FeatureList } from './features/FeatureList';
 import { Blog } from './blog/blog';
+import { Articles } from './articles/articles';
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
                 <div className="bg-stripes"></div>
                 <FeatureList />
                 <Blog />
+                <Articles />
             </div>
         );
     }

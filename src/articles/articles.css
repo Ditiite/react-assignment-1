@@ -1,0 +1,16 @@
+
+/* article component grid */
+.articles {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:  
+      "small-articles development";
+    margin: 50px auto 50px;
+    grid-gap: 20px;
+}
+
+
+.articles-small {
+    grid-area: small-articles;
+}
+

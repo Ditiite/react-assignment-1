@@ -1,0 +1,54 @@
+
+.aside { grid-area: development; }
+
+.aside-development {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-areas:  
+        "design production empty"
+        "text text text";
+    text-align: center;
+    position: relative;
+}
+
+/* grid areas */
+.aside-design { 
+    grid-area: design; 
+    box-shadow: 12px -2px 14px -7px rgb(204, 204, 204);
+    background-color: #fff;
+    color: var(--text-color-darcer);
+    z-index: 2;
+}
+
+.aside-production { 
+    grid-area: production; 
+    background-color: rgb(247, 247, 247);
+}
+
+.aside-empty { grid-area: empty; }
+
+.aside-design,
+.aside-production { 
+    text-transform: uppercase;
+    padding: 10px; 
+}
+
+.aside-text { 
+    grid-area: text;
+    background-color: #fff; 
+    padding: 20px;
+    text-align: justify;
+    box-shadow: var(--blog-box-shadow);
+}
+
+.aside-text p {
+    padding: 10px 0;
+}
+
+.aside-text h2 { color: var(--text-color-darcer); }
+
+.aside-text button {
+    float: right;
+    margin-top: 20px;
+}
+

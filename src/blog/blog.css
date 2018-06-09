@@ -3,12 +3,6 @@
     margin: 50px auto 50px;
 }
 
-.blog-container h2 {
-    text-align: center;
-    color: var(--text-color-darcer);
-    text-transform: uppercase;
-}
-
 .blog-container-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -29,6 +23,7 @@
     grid-area: title;
     text-align: center;
     justify-self: center;
+    text-transform: uppercase;
 }
 
 .title-and-stripes {
@@ -39,6 +34,8 @@
     overflow: hidden;
     grid-gap: 20px;
     height: 50px;
+    text-align: center;
+    color: var(--text-color-darcer);
 }
 
 .stripes {
