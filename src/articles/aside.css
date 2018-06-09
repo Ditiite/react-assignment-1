@@ -36,9 +36,11 @@
 .aside-text { 
     grid-area: text;
     background-color: #fff; 
-    padding: 20px;
+    padding: 20px 20px 0;
     text-align: justify;
     box-shadow: var(--blog-box-shadow);
+    height: 150%;
+    position: relative;
 }
 
 .aside-text p {
@@ -48,7 +50,9 @@
 .aside-text h2 { color: var(--text-color-darcer); }
 
 .aside-text button {
-    float: right;
+    position: absolute;
     margin-top: 20px;
+    bottom: 20px;
+    right: 20px;
 }
 

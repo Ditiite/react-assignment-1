@@ -5,7 +5,7 @@
 .blog .small-triangle-white:after {
   content: "";
   position: absolute;
-  bottom: -12%;
+  bottom: -40px;
   left: 0;
   border-top: 40px solid #fff;
   border-left: 0;
@@ -28,7 +28,7 @@
     padding: 0 20px 20px;
 }
 
-.blog h1 {
+.blog h3 {
     color: var(--text-color-darcer);
     text-transform: capitalize;
     padding: 20px 20px 5px;

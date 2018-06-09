@@ -5,12 +5,15 @@
     grid-template-columns: 2fr 1fr;
     grid-template-areas:  
       "small-articles development";
-    margin: 50px auto 50px;
+    margin: 100px auto 50px;
     grid-gap: 20px;
 }
 
 
 .articles-small {
     grid-area: small-articles;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 20px;
 }
 
