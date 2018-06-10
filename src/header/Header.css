@@ -1,6 +1,6 @@
 
 header {
-  background: rgb(34, 34, 34);
+  background: var(--dark-bg);
   background: radial-gradient( #4e4e4e 5%, #222, #222);
   color: var(--text-color);
 }

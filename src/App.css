@@ -17,6 +17,7 @@ body {
   --text-color-darcer: #222;
   --bolder-text-light-color: rgb(216, 214, 214);
   --blog-box-shadow: 50px -15px 43px -57px rgb(110, 110, 110);
+  --dark-bg: rgb(34, 34, 34);
 }
 
 /* All blue buttons in the app */

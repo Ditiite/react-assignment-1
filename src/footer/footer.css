@@ -1,0 +1,56 @@
+/* Full width footer section */
+footer {
+    background: var(--dark-bg);
+    padding-top: 60px;
+    line-height: 23px;
+}
+/* Footer main grid */
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-area: 
+        "about tweet posts flicker";
+    grid-gap: 30px;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    color: var(--bolder-text-light-color);
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+
+footer p {
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.footer-light-text {
+    color: var(--bolder-text-light-color);
+}
+
+.posts li {
+    border-bottom: 2px solid rgb(39, 39, 39);
+    padding: 10px 0 7px;
+} 
+
+.footer-blue-post {
+    color: var(--button-bg);
+}
+
+/*  Small squers in footer under flicker */
+.footer-flicker-grid {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 50px);
+    grid-gap: 5px;
+}
+
+.footer-flicker-grid div {
+    
+    background: rgb(24, 24, 24);
+}

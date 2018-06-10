@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
-import { Header } from './header/Header';
-import { FeatureList } from './features/FeatureList';
-import { Blog } from './blog/blog';
-import { Articles } from './articles/articles';
+import { Header } from './header/Header'
+import { FeatureList } from './features/FeatureList'
+import { Blog } from './blog/blog'
+import { Articles } from './articles/articles'
+import { Footer } from './footer/footer'
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
                 <FeatureList />
                 <Blog />
                 <Articles />
+                <Footer />
             </div>
         );
     }
