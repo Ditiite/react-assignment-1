@@ -83,7 +83,7 @@ export class Footer extends Component {
                             <Tooltip icon="fab fa-pinterest-p" text="Pinterest" />
                         </div>
                         <div className="footer-arrowUp">
-                            <i class="fas fa-long-arrow-alt-up"></i>
+                            <i className="fas fa-long-arrow-alt-up"></i>
                         </div>
                     </section>
                 </div>

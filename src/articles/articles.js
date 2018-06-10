@@ -9,8 +9,8 @@ import { SpeachBubbleSmall } from '../speachBubble/speachBubble'
 
 export class Articles extends Component {
     render () {
-        const articleComponents = articleData.map((value) => {
-            return <SpeachBubbleSmall selected="true" articleData={value} />
+        const articleComponents = articleData.map((value, index) => {
+            return <SpeachBubbleSmall key={index} selected="true" articleData={value} />
         });
 
         return(

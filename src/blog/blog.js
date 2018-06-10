@@ -6,8 +6,8 @@ import { BlogData } from "../blog/blogData.js";
 
 export class Blog extends Component {
     render() {
-        const speachComponents = BlogData.map((value) => {
-           return <SpeachBubble selected="true" blog={value} />
+        const speachComponents = BlogData.map((value, index) => {
+            return <SpeachBubble key={index} selected="true" blog={value} />
         });
 
         return (

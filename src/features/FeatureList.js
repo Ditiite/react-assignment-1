@@ -6,8 +6,8 @@ import { featureData } from "./featureData";
 
 export class FeatureList extends Component {
     render() {
-        const featureComponents = featureData.map((value) => {
-            return <Feature selected="true" feature={value} />
+        const featureComponents = featureData.map((value, index) => {
+            return <Feature key={index} selected="true" feature={value} />
         });
 
         return (
