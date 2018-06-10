@@ -1,8 +1,23 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import { Tooltip } from './Tooltip'
 import './footer.css'
 
 export class Footer extends Component {
+
+    toggle() {
+        //         onMouseEnter={this.toggle}
+        //         onMouseOut={this.toggle}
+        const tooltipNode = ReactDOM.findDOMNode(this);
+        this.setState({
+            opacity: !this.state.opacity,
+            top: tooltipNode.offsetTop,
+            left: tooltipNode.offsetLeft
+        })
+    }
+
     render() {
+
         return (
             <footer>
                 <section className="footer-section">
@@ -55,22 +70,22 @@ export class Footer extends Component {
                         </div>
                     </div>
                 </section>
-                <div>
-                    <section>
-                        <p className="footer-copyright">
+                <div className="footer-copyright-full-width">
+                    <section className="footer-copyright">
+                        <p className="footer-copyright-text">
                             Copyright © 2003-2012 ventus inc. All rights reserved.
                         </p>
-                        <div>
-                            <i class="fab fa-twitter-square"></i>
-                            <i class="fab fa-facebook-square"></i>
-                            <i class="fab fa-vimeo"></i>
-                            <i class="fab fa-google-plus-square"></i>
-                            <i class="fab fa-pinterest-square"></i>
+                        <div className="footer-copyright-icons">
+                            <Tooltip icon="fab fa-twitter" text="Twitter" />
+                            <Tooltip icon="fab fa-facebook-f" text="Facebook" />
+                            <Tooltip icon="fab fa-vimeo-v" text="Vimeo" />
+                            <Tooltip icon="fab fa-google-plus-g" text="Google +" />
+                            <Tooltip icon="fab fa-pinterest-p" text="Pinterest" />
+                        </div>
+                        <div className="footer-arrowUp">
+                            <i class="fas fa-long-arrow-alt-up"></i>
                         </div>
                     </section>
-                    <div>
-                        <i class="fas fa-long-arrow-alt-up"></i>
-                    </div>
                 </div>
             </footer>
         )

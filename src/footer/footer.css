@@ -51,6 +51,94 @@ footer ul {
 }
 
 .footer-flicker-grid div {
-    
-    background: rgb(24, 24, 24);
+    background: rgb(17, 17, 17);
+}
+
+/* Copyright section */
+.footer-copyright-full-width {
+    background: rgb(29, 29, 29);
+    padding: 10px;
+    position: relative;
+}
+
+.footer-copyright {
+    display: grid;
+    grid-template-areas: 
+        "text icons";
+}
+
+.footer-copyright-text {
+    grid-area: text;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+/* icons */
+.footer-copyright-icons {
+    grid-area: icons;
+    justify-self: right;
+}
+
+.footer-copyright-icons i {
+    font-size: 1em;
+    margin: 5px;
+    background: rgb(17, 17, 17);
+    color: rgb(29, 29, 29);
+    width: 30px;
+    height: 22px;
+    text-align: center;
+    padding-top: 8px; 
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer-copyright-icons i:hover  {
+    background: var(--text-color);
+    color: rgb(17, 17, 17);
+}
+
+.footer-arrowUp {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background: rgb(17, 17, 17);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 15px 5px 0;
+    border-radius: 3px;
+}
+
+.footer-arrowUp i {
+    font-size: 1.5em;
+    color: rgb(29, 29, 29);
+    cursor: pointer;
+}
+
+/* Tooltip */
+.footer-tooltip {
+    background: transparent;
+    padding-bottom: 20px;
+    width: auto;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    left: 50%;
+}
+.footer-tooltip .blog-text {
+    background: #666;
+    padding: 5px 10px;
+    color: white;
+}
+
+
+.footer-tooltip .small-triangle {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  border-top: 20px solid #666;
+  border-left: 0;
+  border-right: 20px solid transparent;
 }
