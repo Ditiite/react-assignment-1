@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './FeatureList.css';
-import { Feature } from "./Feature";
+import Feature from "./Feature";
 import { featureData } from "./featureData";
 
 

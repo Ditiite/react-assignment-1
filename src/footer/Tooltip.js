@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "../speachBubble/speachBubble.css"
 import './footer.css'
 
@@ -7,10 +6,6 @@ export class Tooltip extends Component {
     state = {
         showTip: false
     };
-
-    constructor(props) {
-        super(props);
-    }
 
     displayTooltip(canShow) {
         this.setState({
@@ -25,7 +20,7 @@ export class Tooltip extends Component {
         };
 
         return(
-            <a href="#">
+            <a>
                 <i className={this.props.icon} 
                     onMouseEnter={() => this.displayTooltip(true)}
                     onMouseOut={() => this.displayTooltip(false)}

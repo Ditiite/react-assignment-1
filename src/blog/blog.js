@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import './blog.css';
-import { SpeachBubble } from "../speachBubble/speachBubble";
+import SpeachBubble from "../speachBubble/speachBubble";
 import { BlogData } from "../blog/blogData.js";
 
 export class Blog extends Component {
